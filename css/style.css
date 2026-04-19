@@ -76,7 +76,7 @@ p {
 }
 
 .btn-primary {
-    background-color: #3182ce;
+    background-color: #161f93;
     color: white;
 }
 
@@ -115,7 +115,7 @@ p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
     font-weight: 700;
-    color: #3182ce;
+    color: #161f93;
     text-decoration: none;
 }
 
@@ -134,16 +134,16 @@ p {
 }
 
 .nav-link:hover {
-    color: #3182ce;
+    color: #161f93;
 }
 
 .nav-link.active {
-    color: #3182ce;
+    color: #161f93;
     font-weight: 600;
 }
 
 .nav-link.cta-button {
-    background-color: #3182ce;
+    background-color: #161f93;
     color: white;
     border-radius: 4px;
     margin-left: 10px;
@@ -237,7 +237,7 @@ p {
 
 .service-icon {
     font-size: 2.5rem;
-    color: #3182ce;
+    color: #161f93;
     margin-bottom: 20px;
 }
 
@@ -268,7 +268,7 @@ p {
 
 .trust-item i {
     font-size: 2.5rem;
-    color: #3182ce;
+    color: #161f93;
     margin-bottom: 20px;
 }
 
@@ -290,7 +290,7 @@ p {
 
 .testimonial-content i.fa-quote-left {
     font-size: 2rem;
-    color: #3182ce;
+    color: #161f93;
     margin-bottom: 20px;
 }
 
@@ -316,7 +316,7 @@ p {
 /* CTA Section */
 .cta {
     padding: 80px 0;
-    background-color: #3182ce;
+    background-color: #161f93;
     color: white;
     text-align: center;
 }
@@ -337,7 +337,7 @@ p {
 
 .cta .btn-primary {
     background-color: white;
-    color: #3182ce;
+    color: #161f93;
 }
 
 .cta .btn-primary:hover {
@@ -469,7 +469,7 @@ p {
     padding: 30px;
     border-radius: 8px;
     margin: 40px 0;
-    border-left: 4px solid #3182ce;
+    border-left: 4px solid #161f93;
 }
 
 .mission-statement h3 {
@@ -507,7 +507,7 @@ p {
 
 .value-item i {
     font-size: 2.5rem;
-    color: #3182ce;
+    color: #161f93;
     margin-bottom: 20px;
 }
 
@@ -566,7 +566,7 @@ p {
 .form-group select:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #3182ce;
+    border-color: #161f93;
 }
 
 .contact-methods {
@@ -585,7 +585,7 @@ p {
 
 .contact-method i {
     font-size: 2rem;
-    color: #3182ce;
+    color: #161f93;
     margin-bottom: 15px;
 }
 
@@ -615,7 +615,7 @@ p {
 
 .contact-info i {
     margin-right: 10px;
-    color: #3182ce;
+    color: #161f93;
 }
 
 /* Responsive Design */

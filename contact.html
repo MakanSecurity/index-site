@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Makan</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Makan</a>
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                <li><a href="contact.html" class="nav-link cta-button">Get Help</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Header -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Get in Touch</h1>
+                <p class="hero-subtitle">We're here to help with your tech needs. Response within 2 hours during business hours.</p>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone"></i> <strong>Phone:</strong> (571) 469-7365</p>
+                    <p><i class="fas fa-envelope"></i> <strong>Email:</strong> jhamacher@makanusa.com</p>
+                    <p><i class="fas fa-clock"></i> <strong>Hours:</strong> Mon-Fri 8am-6pm</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Form & Info -->
+    <section class="contact-main">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-form-container">
+                    <h2>Send Us a Message</h2>
+                    <p>Describe your tech issue and we'll get back to you quickly.</p>
+                    <form id="contactForm" action="https://formsubmit.co/jhamacher@makanusa.com" method="POST">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="phone" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="issue">Issue Type *</label>
+                            <select id="issue" name="issue" required>
+                                <option value="">Select an issue type</option>
+                                <option value="computer">Computer/Device Support</option>
+                                <option value="email">Email/Microsoft 365</option>
+                                <option value="network">Network/WiFi Issues</option>
+                                <option value="business">Small Business Tech</option>
+                                <option value="website">Website Help</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info-container">
+                    <h2>Other Ways to Reach Us</h2>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <h3>Call Us</h3>
+                            <p>(571) 469-7365</p>
+                            <p>We answer calls during business hours. You can also text us too!</p>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email Us</h3>
+                            <p>jhamacher@makanusa.com</p>
+                            <p>We respond to emails within 2 hours during business hours.</p>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Service Area</h3>
+                            <p>Local in-person support available in Warren, Fauquier and Prince William counties.</p>
+                            <p>Remote support available anywhere.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Need Immediate Help?</h2>
+            <p>Call us now at (571) 469-7365 for urgent tech support.</p>
+            <a href="tel:+15714697365" class="btn btn-primary">
+                <i class="fas fa-phone"></i> Call Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Makan</h3>
+                    <p>Your local tech lifeline. Providing fast, reliable IT support for homes and small businesses.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> (571) 469-7365</li>
+                        <li><i class="fas fa-envelope"></i> jhamacher@makanusa.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Front Royal, VA</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Makan. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
